@@ -1,0 +1,38 @@
+@import '../../styles/global.sass'
+
+.container-mainprofile
+    display: flex
+    flex-direction: column
+    position: relative
+
+    img
+        flex-grow: 1
+    
+    .profile-picture
+        img
+            position: absolute
+            width: 8rem
+            border-radius: 50%
+            border: 4px solid $background
+            left: 10px
+            top: 130px
+    
+    .buttons
+        margin: 1rem
+        flex-grow: 1
+        display: flex
+        justify-content: flex-end
+
+        button
+            color: $primary-color
+            font-size: 16px
+            font-weight: bold
+
+
+        .option
+            height: 3rem
+            width: 3rem 
+            border-radius: 50%
+
+        
+
